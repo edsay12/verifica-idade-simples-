@@ -1,0 +1,41 @@
+img{
+border-radius: 50%;
+
+
+} 
+body{
+
+background-color: rgba(9, 130, 230, 0.836)  ;
+
+}
+header{
+    text-align: center;
+
+}
+header h1 {
+
+color: white;
+    text-align: center;
+}
+
+article{
+
+text-align: center;
+border: 1px solid black;
+border-radius: 20px;
+width: 350px;
+margin: auto;
+background-color: white; 
+padding: 10px;
+box-shadow: 1px 1px 5px;
+
+}
+article #form{
+    margin-top: 10px;
+   
+}
+footer{
+    color: white;
+
+    text-align: center;
+}
