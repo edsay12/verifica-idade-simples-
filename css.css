@@ -1,5 +1,7 @@
 img{
 border-radius: 50%;
+width: 200px;
+height: 200px;
 
 
 } 
@@ -23,16 +25,31 @@ article{
 text-align: center;
 border: 1px solid black;
 border-radius: 20px;
-width: 350px;
+width: 500px;
 margin: auto;
 background-color: white; 
 padding: 10px;
 box-shadow: 1px 1px 5px;
 
 }
-article #form{
-    margin-top: 10px;
-   
+#botao{
+
+
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+#form,#alguma-coisa{
+    margin-top: 40px;
+
+}
+
+#form {
+    margin-top: 40px;
+
+
+
 }
 footer{
     color: white;
