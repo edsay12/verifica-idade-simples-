@@ -30,7 +30,23 @@ margin: auto;
 background-color: white; 
 padding: 10px;
 box-shadow: 1px 1px 5px;
+animation-name: lado ; 
+animation-duration: 1s;
+animation-iteration-count: 1;
 
+}
+
+@keyframes lado {
+  from{
+    transform: translateX(-300px);
+    opacity: 0;
+    
+  }
+  to{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+    
 }
 #botao{
 

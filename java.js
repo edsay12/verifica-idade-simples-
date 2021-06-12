@@ -11,10 +11,13 @@ function verifica() {
     var imagem = window.document.getElementById("imagem")
     var sexo = window.document.getElementsByName("Sexo")
     
+    
     if (sexo[0].checked){
         var genero = "Homen"
+        document.body.style.background = "blue";
     }else if(sexo[1].checked){
         genero = "mulher"
+        document.body.style.background = "pink";
     }
 
     // calculo da idade 
@@ -30,10 +33,13 @@ function verifica() {
         }
         imagem.style.width = "200px"
         imagem.style.height = "200px"
-    }else if(idade >=13 && idade < 18 ){
+
+    }else if(idade >=13 && idade < 30 ){
         if(genero == "Homen"){
             aviso.innerHTML = `Voce e um adolescente de ${idade} anos`
             imagem.src = "img/homen.jpeg"
+            
+            
 
         }else{
             aviso.innerHTML = `Voce e uma adolescente de ${idade} anos`
@@ -42,7 +48,7 @@ function verifica() {
         imagem.style.width = "200px"
         imagem.style.height = "200px"
 
-    }else if (idade >=18  && idade < 120 ){
+    }else if (idade >=30  && idade < 120 ){
         if (genero == "Homen"){
             aviso.innerHTML = `Voce e uma Homen adulto de ${idade} anos`
             imagem.src = "img/velho.jpeg"
